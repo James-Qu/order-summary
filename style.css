@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 20rem;
+  height: 40rem;
+  border-radius: 1rem;
+  background: rgb(252, 254, 226);
+}
+
+img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
