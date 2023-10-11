@@ -33,8 +33,8 @@
   <body>
     <!-- BS5 have default gutter between grid items, g-0 will remove it -->
     <div class="container d-grid g-0">
-      <div id="top-image">
-        <img src="./images/illustration-hero.svg" alt="hero image" />
+      <div>
+        <img id="top-image" src="./images/illustration-hero.svg" alt="hero image" />
       </div>
           <div class="title d-flex justify-content-center">
             Order Summary 
@@ -43,12 +43,22 @@
             You can now listen to millions of songs, audiobooks, and
             podcasts on any device anywhere you like! 
           </div>
-          <div class="plan-detail-card d-flex justify-content-center">
-            Annual Plan $59.99/year Change
+          <div class="plan-detail-card d-flex justify-content-evenly align-items-center mx-5">
+            <img id="music-icon" src="./images/icon-music.svg" alt="music icon" />
+            <div>
+              <div id="plan-text">
+                Annual Plan
+              </div>
+              <div id="plan-price">
+                $59.99/year
+              </div>
+            </div>
+            <div id="change-plan">
+              Change
+            </div>
           </div>
-          <div class="payment-btn d-flex justify-content-center">
-            <button type="button" class="btn btn-primary btn-lg btn-block">Proceed to Payment</button>
-            <!-- Proceed to Payment -->
+          <div class="d-flex justify-content-center mt-4">
+            <button type="button" class="payment-btn btn">Proceed to Payment</button>
           </div>
           <div class="cancel-btn d-flex justify-content-center">
             <button type="button" class="btn btn-link">Cancel Order</button>

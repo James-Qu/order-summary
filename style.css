@@ -4,7 +4,8 @@
 
 html {
   font-size: 16px;
-  font-family: 'Red Hat Display', sans-serif;
+  font-family: 'Red Hat Display',sans-serif;
+  font-weight: 900;
 }
 
 .container {
@@ -13,13 +14,32 @@ html {
   width: 20rem;
   height: 40rem;
   border-radius: 1rem;
-  background: rgb(252, 254, 226);
+  background: rgb(247, 247, 242);
 }
 
-img {
+#top-image {
   width: 100%;
   height: auto;
   object-fit: cover;
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
+}
+
+#music-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.plan-detail-card {
+  background: rgb(227, 227, 227);
+  border-radius: 1rem;
+  width: 14rem;
+}
+
+.payment-btn {
+  --bs-btn-padding-y: .25rem; 
+  --bs-btn-padding-x: .5rem; 
+  --bs-btn-font-size: .75rem;
+  background: hsl(223, 47%, 23%);
+  color: rgb(238, 237, 237)
 }
