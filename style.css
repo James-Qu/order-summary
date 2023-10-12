@@ -12,9 +12,9 @@ html {
   max-width: 1200px;
   margin: 0 auto;
   width: 20rem;
-  height: 40rem;
+  height: 35rem;
   border-radius: 1rem;
-  background: rgb(247, 247, 242);
+  background: rgb(248, 248, 246);
 }
 
 .subtitle {
@@ -39,15 +39,21 @@ html {
 }
 
 .plan-detail-card {
-  background: rgb(227, 227, 227);
-  border-radius: 1rem;
+  background: rgb(243, 243, 243);
+  border-radius: 0.4rem;
   width: 14rem;
+  height: 5rem;
 }
 
 .payment-btn {
-  --bs-btn-padding-y: .25rem; 
-  --bs-btn-padding-x: .5rem; 
+  --bs-btn-padding-y: .5rem; 
+  --bs-btn-padding-x: 3.3rem; 
   --bs-btn-font-size: .75rem;
-  background: hsl(223, 47%, 23%);
+  background: hsl(245, 75%, 52%);
   color: rgb(238, 237, 237)
+}
+
+.cancel-btn {
+  color: rgb(175, 174, 174);
+  font-size: 0.8rem;
 }
