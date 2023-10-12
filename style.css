@@ -17,6 +17,14 @@ html {
   background: rgb(247, 247, 242);
 }
 
+.subtitle {
+  color: silver;
+}
+
+.plan-text-font {
+  font-size: 0.8rem;
+}
+
 #top-image {
   width: 100%;
   height: auto;
